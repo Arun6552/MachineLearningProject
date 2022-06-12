@@ -59,10 +59,11 @@ To check the updated repo
 git diff
 ```
 To setup CI/CD pipeline in heroku we need 3 information
-
+```
 HEROKU_EMAIL = arunchaudhary6552@gmail.com
 HEROKU_API_KEY = 730c82f4-002a-4123-a9f1-c950a606a260
 HEROKU_APP_NAME = mlprojectregression
+```
 
 BUILD DOCKER IMAGE
 ```
