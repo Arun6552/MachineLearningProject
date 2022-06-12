@@ -58,3 +58,33 @@ To check the updated repo
 ```
 git diff
 ```
+To setup CI/CD pipeline in heroku we need 3 information
+
+HEROKU_EMAIL = arunchaudhary6552@gmail.com
+HEROKU_API_KEY = 730c82f4-002a-4123-a9f1-c950a606a260
+HEROKU_APP_NAME = mlprojectregression
+
+BUILD DOCKER IMAGE
+```
+docker build -t <image_name>:<tagname>
+> Note: Image name for docker must be lowercase
+
+To list docker image
+```
+docker images
+```
+
+Run docker images
+```
+docker run -p 5000:5000 -e PORT=5000 
+```
+
+To check running container in docker
+```
+docker ps
+```
+
+To stop the Docker container
+```
+docker stop <container_id>
+```
