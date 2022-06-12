@@ -49,5 +49,12 @@ git push origin main
 ```
 
 To check remote url 
-``` git remote -v
+
+```
+git remote -v
+```
+To check the updated repo 
+
+```
+git diff
 ```
