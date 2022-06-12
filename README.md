@@ -10,13 +10,12 @@
 creating  conda environment 
 ```
 conda create -p venv python==3.7 -y   (p present dirc)
-
+```
+To activate the environment
 ```
 conda activate venv/
-
-or 
 ```
-
+OR
 ```
 conda activate venv
 ```
@@ -44,11 +43,11 @@ To create the version/commit all the changes by git
 ```
 git commit -m "message"
 ```
-
 To send version/changes to github
 ```
 git push origin main
 ```
+
 To check remote url 
 ``` git remote -v
 ```
