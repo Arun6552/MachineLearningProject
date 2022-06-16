@@ -81,11 +81,14 @@ docker run -p 5000:5000 -e PORT=5000
 ```
 
 To check running container in docker
+
 ```
 docker ps
 ```
 
 To stop the Docker container
+
 ```
 docker stop <container_id>
+
 ```
