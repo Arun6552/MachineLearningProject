@@ -98,3 +98,11 @@ docker stop <container_id>
 ```
 python setup.py install
 ```
+
+```
+python install -r requirements.txt
+```
+
+```
+python install -e . 
+```
