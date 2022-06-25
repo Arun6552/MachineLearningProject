@@ -106,3 +106,8 @@ python install -r requirements.txt
 ```
 python install -e . 
 ```
+
+
+```
+pip install ipykernal
+```
