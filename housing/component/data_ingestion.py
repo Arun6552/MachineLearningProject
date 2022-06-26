@@ -61,7 +61,6 @@ class DataIngestion:
 
         except Exception as e:
             raise HousingException(e,sys) from e
-    
     def split_data_as_train_test(self) -> DataIngestionArtifact:
         try:
             raw_data_dir = self.data_ingestion_config.raw_data_dir
@@ -118,7 +117,6 @@ class DataIngestion:
 
         except Exception as e:
             raise HousingException(e,sys) from e
-
     def initiate_data_ingestion(self)-> DataIngestionArtifact:
         try:
             tgz_file_path =  self.download_housing_data()
